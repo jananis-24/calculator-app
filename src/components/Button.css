@@ -1,0 +1,43 @@
+.btn {
+  aspect-ratio: 1;
+  border: none;
+  border-radius: 50%;
+  font-size: 28px;
+  font-weight: 400;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: filter 0.1s, transform 0.08s;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.btn:active {
+  filter: brightness(0.75);
+  transform: scale(0.95);
+}
+
+/* Number buttons */
+.btn-num {
+  background: #333;
+  color: #fff;
+}
+
+/* Function / operator buttons */
+.btn-func {
+  background: #444;
+  color: #30d158;
+}
+
+/* Clear button */
+.btn-clear {
+  background: #d63030;
+  color: #fff;
+}
+
+/* Equals button */
+.btn-equals {
+  background: #30d158;
+  color: #fff;
+}

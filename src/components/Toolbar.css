@@ -1,0 +1,19 @@
+.toolbar {
+  display: flex;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.toolbar-btn {
+  background: rgba(255, 255, 255, 0.08);
+  border: none;
+  border-radius: 8px;
+  color: rgba(255, 255, 255, 0.5);
+  padding: 8px 12px;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.toolbar-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+}

@@ -1,0 +1,49 @@
+.display {
+  text-align: right;
+  padding: 20px 8px 10px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 4px;
+}
+
+.expression {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 1.2;
+  word-break: break-all;
+  transition: font-size 0.15s ease;
+}
+
+.expression.shrink {
+  font-size: 36px;
+}
+
+.expression .op {
+  color: #30d158;
+}
+
+.expression .cursor {
+  display: inline-block;
+  width: 2px;
+  height: 0.9em;
+  background: #30d158;
+  margin-left: 1px;
+  vertical-align: text-bottom;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+.preview {
+  font-size: 28px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.5);
+  min-height: 36px;
+  transition: opacity 0.15s ease;
+}

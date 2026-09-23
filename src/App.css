@@ -1,0 +1,17 @@
+/* ── Calculator Shell ────────────────────────── */
+.calculator {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* ── Responsive ──────────────────────────────── */
+@media (max-width: 440px) {
+  .calculator {
+    padding: 12px;
+    gap: 10px;
+  }
+}

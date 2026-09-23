@@ -1,0 +1,17 @@
+.buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 440px) {
+  .buttons {
+    gap: 10px;
+  }
+}
+
+@media (max-width: 360px) {
+  .buttons {
+    gap: 8px;
+  }
+}
